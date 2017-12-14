@@ -1,0 +1,80 @@
+.mt {
+	margin-top: 80px;
+}
+
+.mb {
+	margin-bottom: 80px;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+}
+
+h1, h3, h4, h5, h6 {
+	font-weight: 700;
+    color:grey;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar-brand {
+	font-weight: 700;
+}
+
+
+.navbar:hover{
+	cursor: pointer;
+}
+
+.navbar-default .navbar-brand {
+	color: #1abc9c;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+	color: #rgb(68, 63, 69);
+	background-color: transparent;
+	border-bottom: 2px solid #1abc9c
+}
+
+.navbar-default .navbar-nav > li > a {
+	color: #000000;
+}
+.info{
+    text-align: center;
+}
+
+#footerwrap {
+	padding-top: 30px;
+	padding-bottom: 30px;
+    background-color: rgb(10, 79, 97);
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+#footerwrap p {
+	color: #f2f2f2;
+	margin-left: 10px;
+  font-size: 15px;
+}
+
+#footerwrap i:hover {
+	color: #1abc9c
+}
+
+.tagline{
+    color: black;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+div {
+    overflow: scroll;
+}
